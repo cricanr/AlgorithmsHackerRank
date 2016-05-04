@@ -4,6 +4,13 @@
 .cache
 .history
 .lib/
+
+*.iml
+*.ipr
+*.iws
+.idea
+out
+
 dist/*
 target/
 lib_managed/
