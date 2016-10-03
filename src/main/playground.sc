@@ -1,3 +1,5 @@
+import scala.collection.immutable.Stack
+
 //val a = (1 -> 5)
 //val b = (1 -> 6)
 //var ll = Seq(a,b)
@@ -30,3 +32,31 @@ def rotateView(d: Int) : Array[Int] = {
 
 val rotated = rotateView(d)
 rotated.foreach(i => print(i + " "))
+
+
+val t = 3
+val ar = "a"
+
+val stackChars = Stack.empty
+val s = stackChars.push('c')
+s.pop2._1
+//
+//
+//ar.forall(c => c == '(' || c == ')' || c == '[' || c == ']' || c == '{' || c == '}')
+
+//def balanceBracket(str: String): String = {
+//  val index = ar.length/2-1
+//  val sub1 = ar.substring(0, index)
+//  val sub2 = ar.substring(index + 2)
+//  val balanced = if (ar(index) == '(' && ar(index+1) == ')' ||
+//    ar(index) == '[' && ar(index+1) == ']' ||
+//    ar(index) == '{' && ar(index+1) == '}') sub1 + sub2 else
+//    ar
+//
+//  if (balanced.isEmpty) "YES" else
+//  if (balanced == ar) "NO" else {
+//    balanceBracket(balanced)
+//  }
+//}
+//
+//balanceBracket(ar)
