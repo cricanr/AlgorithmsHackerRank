@@ -4,10 +4,10 @@ object CounterGame {
   def main(args: Array[String]) {
     val sc = new java.util.Scanner(System.in)
     val t = sc.nextInt()
-    var n = sc.nextLong()
+    var n = sc.nextDouble()
 
-    def isNPowOfN(n: Long) = Math.log(n) / Math.log(2) % 2 == 1
-    def largestPow(n: Long) = Math.round(Math.pow(2, Math.floor(Math.log(n) / Math.log(2))).toLong)
+    def isNPowOfN(n: Double) = Math.log(n) / Math.log(2) % 2 == 1
+    def largestPow(n: Double) = Math.round(Math.pow(2, Math.floor(Math.log(n) / Math.log(2))).toLong)
     def playCounterGame: Unit = {
       if (n == 1) println("Richard")
 
