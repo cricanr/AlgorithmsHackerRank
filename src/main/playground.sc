@@ -60,3 +60,6 @@ s.pop2._1
 //}
 //
 //balanceBracket(ar)
+
+val largestPow = Math.pow(2, Math.floor(Math.log(6) / Math.log(2)))
+val isNPowOfN = Math.log(8) / Math.log(2) % 2 == 0
