@@ -11,13 +11,12 @@ object CoinChange {
       c(c_i) = sc.nextLong()
     }
 
-    if (n == 0) 0 else if (m == 0) 0 else {
-      for (l <- 0 until m) {
-        for (k <- 1 to m) {
+    if (n == 0) 0 else
+      if (m == 0) 0 else for (_ <- 0 until m) {
+        for (_ <- 1 to m) {
 
         }
       }
-    }
 
     // Print the number of ways of making change for 'n' units using coins having the values given by 'c'
   }
