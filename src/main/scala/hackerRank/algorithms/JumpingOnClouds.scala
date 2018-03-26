@@ -14,7 +14,6 @@ object JumpingOnClouds {
           E = E - 2
           i = (i + k) % c.length
       }
-      println("cloud visited: " + i)
       if (i == 0) EE = 0
     }
 
