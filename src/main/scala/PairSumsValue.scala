@@ -1,6 +1,7 @@
 /**
   * Created by radu on 09.02.17.
   */
+
 object PairSumsValue {
   //Given an array of int and a target number, how to find two numbers in the array whose sum equals the target.
   def main(args: Array[String]): Unit = {

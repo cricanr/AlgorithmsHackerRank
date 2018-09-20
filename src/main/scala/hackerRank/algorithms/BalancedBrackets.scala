@@ -1,10 +1,10 @@
 package hackerRank.algorithms
 
 object BalancedBrackets {
-  def main(args: Array[String]) {
-    val sc = new java.util.Scanner(System.in)
-    val t = sc.nextInt()
-    var a0 = 0
+  def main(args: Array[String]): Unit = {
+    val scanner = new java.util.Scanner(System.in)
+    val noOfExpressions = scanner.nextInt()
+    var index = 0
 
     def isClosedBracket(left: Char, right: Char): Boolean = {
       val pair = (left, right)
@@ -34,14 +34,14 @@ object BalancedBrackets {
       true
     }
 
-    while(a0 < t){
-      val expression = sc.next()
+    while(index < noOfExpressions){
+      val expression = scanner.next()
       if (balancedBracket(expression))
         println("YES")
       else
         println("NO")
 
-      a0+=1
+      index+=1
     }
   }
 }

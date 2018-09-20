@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/algorithmshackerrank.iml" filepath="$PROJECT_DIR$/.idea/modules/algorithmshackerrank.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/algorithmshackerrank-build.iml" filepath="$PROJECT_DIR$/.idea/modules/algorithmshackerrank-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/basic-project.iml" filepath="$PROJECT_DIR$/.idea/modules/basic-project.iml" />
     </modules>
   </component>
 </project>
