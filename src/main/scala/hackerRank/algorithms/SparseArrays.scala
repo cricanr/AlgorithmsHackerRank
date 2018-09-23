@@ -1,7 +1,5 @@
 package hackerRank.algorithms
 
-import java.io._
-
 object SparseArrays {
 
   // Complete the matchingStrings function below.
